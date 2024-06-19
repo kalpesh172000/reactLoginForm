@@ -5,7 +5,8 @@ function App() {
     const isLoggedIn = true 
     return (
         <div className="container">
-            {isLoggedIn ? <h1>Hello</h1> : <Form1 />}
+            {/* {isLoggedIn ? <h1>Hello</h1> : <Form1 />} */}
+            {isLoggedIn && <h1>Hello</h1>}
         </div>
     );
 }
